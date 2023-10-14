@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-### Hi, my name is Vivian Zou and I am currently a first year CS and math combined major at Northeastern University
+Hi, my name is Vivian Zou and I am currently a first year CS and math combined major at Northeastern University
 
 <!--
 **vivianzo/vivianzo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
