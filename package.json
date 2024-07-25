@@ -2,7 +2,7 @@
   "name": "vivianzo",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://vivianzo.github.io/",
+  "homepage": "https://vivianzo.github.io/vivianzou/",
   "type": "module",
   "scripts": {
     "dev": "vite",
