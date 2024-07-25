@@ -1,6 +1,6 @@
 import React from 'react';
 import {HERO_CONTENT} from "../constants";
-import profilePic from "../assets/kevinRushProfile.png";
+import profilePic from "../assets/bobacat.png";
 import {motion} from "framer-motion";
 
 const container = (delay) => ({
@@ -14,7 +14,7 @@ const container = (delay) => ({
 
 const Hero = () => {
   return (
-    <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
+    <div className='border-b border-neutral-900 pb-2 lg:mb-35'>
         <div className="flex flex-wrap">
             <div className="w-full lg:w-1/2">
                 <div className="flex flex-col items-center lg:items-start">
@@ -22,29 +22,32 @@ const Hero = () => {
                         variants={container(0)}
                         initial="hidden"
                         animate="visible"
-                        className='pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl'
-                        >Name</motion.h1>
+                        className='pb-16 text-8xl font-thin tracking-tight lg:mt-16 lg:text-16xl text-black font-times'
+                        >Hello!</motion.h1>
                     <motion.span 
                         variants={container(0.5)}
                         initial="hidden"
                         animate="visible"
-                        className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent'
-                        > Description</motion.span>
+                        className='bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent'
+                        > Welcome to my website</motion.span>
                     <motion.p 
                         variants={container(1)}
                         initial="hidden"
                         animate="visible"
-                        className='my-2 max-w-xl py-6 font-light tracking-tighter'
+                        className='my-2 max-w-xl py-6 font-light tracking-tighter text-black text-lg'
                         >{HERO_CONTENT}</motion.p>
                  </div>
             </div>
             <div className='w-fill lg:w-1/2 lg:p-8'>
-                <div className="flex justify-center">
+                <div className="flex justify-center ">
                     <motion.img 
                         initial={{x:100, opacity:0}}
                         animate={{x:0, opacity:1}}
                         transition={{duration:1, delay:1.2}}
-                        src={profilePic} alt="Profile" />
+                        src={profilePic} 
+                        alt="Profile" 
+                        className="rounded-full"
+                    />
                 </div>
             </div>
         </div>
